@@ -1,6 +1,6 @@
 # 2) Escreva um programa que leia um valor em metros e o exiba convertido em milímetros
 
 metros = float(input('Digite a quantidade de metros deseja converter:\n'))
-centimetros = metros * 100
+milimetros = metros * 1000
 
-print('O valor digitado em metros foi {}m, sua conversão para centimetros é {:.0f}cm'.format(metros, centimetros))
+print('O valor digitado em metros foi {}m, sua conversão para milímetros é {:.0f}mm'.format(metros, milimetros))
