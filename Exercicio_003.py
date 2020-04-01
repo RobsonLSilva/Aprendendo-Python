@@ -14,7 +14,7 @@ horas = int(input("Digite a quantidade de horas: \n"))
 minutos = int(input("Digite a quantidade de minutos: \n"))
 segundos = int(input("Digite a quantidade de segundos: \n"))
 
-total_segundos = (dias * 24 * 3600) + (horas * 60 * 60) + (minutos * 60) + segundos
+total_segundos = (dias * 24 * 3600) + (horas * 3600) + (minutos * 60) + segundos
 
 print("O valor total em segundos é de {}s.".format(total_segundos))
 
