@@ -1,3 +1,4 @@
+# By Python para zumbi - Profº Fernando Masanori
 # 2) Escreva um programa que leia um valor em metros e o exiba convertido em milímetros
 
 metros = float(input('Digite a quantidade de metros deseja converter:\n'))
